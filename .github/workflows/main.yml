@@ -16,6 +16,6 @@ jobs:
         with:
           project_name: ${{ github.repository }}
           cx_tenant: cs-na-tam
-          base_uri: https://ast.checkmarx.net
-          cx_client_id: ${{ secrets.JONH_DEMO}}
+          base_uri: https://ast.checkmarx.net 
+          cx_client_id: ${{ secrets.CLIENT_ID }}
           cx_client_secret: ${{ secrets.SECRET }}
